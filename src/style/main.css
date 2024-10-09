@@ -1,0 +1,94 @@
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 130vh;
+    margin-top: 25px;
+  
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    line-height: 4rem;
+    border-radius: 8px;
+    background-color: var(--bg-color-grey);
+    width: 520px;
+    height: 455px;
+    padding: 30px;
+    position: sticky;
+    top: 1px;
+}
+.topicos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    gap: 25px;
+    margin: 15px 10px;
+}
+
+.title-contact{
+    font-size: var(--font-size-title);
+    font-weight: 700px;
+    width: 450px;
+    
+}
+.paragraph-contact{
+    font-size: 20px;
+    width: 450px;
+}
+.button-contact{
+    width: 460px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: var(--bg-color-roxo);
+    font-size: var(--font-size-texto);
+    padding-left: 8px;
+}
+.label-contact{
+    width: 450px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: var(--txt-primary-black);
+    font-size: var(--font-size-texto);
+    color: #878788;
+    padding-left: 8px;
+}
+
+.article{
+    width: 22rem;
+    height: 350px;
+}
+.title-article{
+    color: var(--txt-primary-black);
+    font-size: var(--font-size-title);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.paragraph-article{
+    color: var(--txt-primary-black);
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px; /* Distância do fundo */
+    right: 20px; /* Distância da direita */
+    z-index: 1000; /* Garante que fique sobre outros elementos */
+    background-color: var(--bg-whatsapp-green);
+    border-radius: 42px;
+    width: 300px;
+    height: 40px;
+    padding: 15px;
+    
+}
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+}
+.icon-whatsapp {
+    width: 50px; /* Tamanho do ícone */
+    height: 40px; /* Tamanho do ícone */
+}
